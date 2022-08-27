@@ -1,0 +1,114 @@
+/* FONT : Bellefair */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+/* FONT : Barlow Condensed  */
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url(/starter-code/assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/*START HEADER NAVBAR*/
+hr {
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    clear: both;
+    display: block;
+    height: 1px;
+    margin: 0 auto 50px auto;
+    padding-top: 50px;
+    max-width: 473px;
+    width: 473px;
+    position: relative;
+    z-index: 3;
+    margin-left: 60px;
+}
+
+.navbar-links {
+  backdrop-filter: blur(20px);
+  background-color: rgba(151, 151, 151, 0.1);
+  width: 830px;
+  height: 96px;
+  text-align: center;
+}
+
+.logo {
+  margin-left: 30px;
+}
+
+.logo img {
+  width: 48px;
+}
+
+.navbar-links ul li a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-links li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2.35px;
+  color: white;
+  padding: 16px;
+  display: block;
+}
+
+.navbar-links li:hover {
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
+
+.nav-btn-active {
+  border-bottom: 3px solid white;
+}
+
+#nav-bar {
+    align-items: center;
+  display: flex;
+  margin-top: 41px;
+  height: 96px;
+  width: 100wh;
+}
+
+/* END OF HEADER NAVBAR */
+
+/* MAIN */
+
+/* #explanation {
+  font-family: 'Bellefair', serif;
+  position: fixed;
+  left: 165px;
+  bottom: 131px;
+  width: 450px;
+  height: 382px;
+}
+
+
+#explanation h1 {
+  font-size: 150px;
+  margin: 24px 0;
+}
+
+#h5 {
+    width: 349px;
+    height: 37px;
+    font-size: 28px;
+    position: relative;
+    left: 0%;
+} */
