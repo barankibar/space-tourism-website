@@ -1,5 +1,4 @@
 /* FONT : Bellefair */
-@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 /* FONT : Barlow Condensed  */
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
 
@@ -13,18 +12,18 @@ html {
 
 /*START HEADER NAVBAR*/
 hr {
-    border: 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    clear: both;
-    display: block;
-    height: 1px;
-    margin: 0 auto 50px auto;
-    padding-top: 50px;
-    max-width: 473px;
-    width: 473px;
-    position: relative;
-    z-index: 3;
-    margin-left: 60px;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  clear: both;
+  display: block;
+  height: 1px;
+  margin: 0 auto 50px auto;
+  padding-top: 50px;
+  max-width: 473px;
+  width: 473px;
+  position: relative;
+  z-index: 3;
+  margin-left: 60px;
 }
 
 .navbar-links {
@@ -56,8 +55,8 @@ hr {
 }
 
 .navbar-links li {
-    list-style: none;
-    margin: 0 20px;
+  list-style: none;
+  margin: 0 20px;
 }
 
 .navbar-links li a {
@@ -79,7 +78,7 @@ hr {
 }
 
 #nav-bar {
-    align-items: center;
+  align-items: center;
   display: flex;
   margin-top: 41px;
   height: 96px;
@@ -88,27 +87,48 @@ hr {
 
 /* END OF HEADER NAVBAR */
 
-/* MAIN */
-
-/* #explanation {
-  font-family: 'Bellefair', serif;
-  position: fixed;
-  left: 165px;
-  bottom: 131px;
+/* START HOMEPAGE */
+.container {
+  display: table;
+}
+#col1 {
+  color: white;
+  display: block;
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+.f-text {
+  color: #d0d6f9;
+  font-size: 28px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4.75px;
+  display: flex;
   width: 450px;
-  height: 382px;
+  height: 34px;
+  text-align: center;
+  margin: 0 auto;
 }
-
-
-#explanation h1 {
+.main-text {
   font-size: 150px;
-  margin: 24px 0;
+  font-family: "bellefairregular";
+  text-align: center;
+  width: 450px;
+  height: 172px;
+  margin: 0 auto;
 }
-
-#h5 {
-    width: 349px;
-    height: 37px;
-    font-size: 28px;
-    position: relative;
-    left: 0%;
-} */
+.s-text {
+  text-align: justify;
+  margin: 0 auto;
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+  width: 450px;
+  height: 128px;
+  font-size: 22px;
+}
+.explore-link,
+.explore-link:hover {
+  text-decoration: none;
+  color: #0b0d17;
+}
+/* END HOME PAGE */
