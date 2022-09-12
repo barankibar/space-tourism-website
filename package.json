@@ -1,0 +1,22 @@
+{
+  "name": "space-tourism",
+  "version": "1.0.0",
+  "description": "space tourism website /mentor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barankibar/space-tourism-website.git"
+  },
+  "author": "Mert Baran Kibar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barankibar/space-tourism-website/issues"
+  },
+  "homepage": "https://github.com/barankibar/space-tourism-website#readme",
+  "dependencies": {
+    "ejs": "^3.1.8"
+  }
+}
